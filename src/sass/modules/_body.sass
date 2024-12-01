@@ -134,3 +134,40 @@
     width: 100%
     height: 10em
     object-fit: cover // Coupe proprement si l'image est plus grande 
+
+
+// Style pour les cards
+.service-card
+  margin: 5px // Espacement autour des cards
+  border-radius: 10px // Coins arrondis pour un design soigné
+  background-color: #fff // Optionnel : couleur de fond blanche
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) // Légère ombre pour un effet flottant
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out // Animation pour effet hover
+  padding: 20px // Espacement interne des cards
+
+  // Effet hover sur les cards
+  &:hover
+    transform: translateY(-5px) // Légère élévation lors du survol
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2) // Ombre accentuée au hover
+
+  // Icônes à l'intérieur des cards
+  .icon
+    font-size: 30px // Taille des icônes
+    color: #007bff // Couleur bleue pour les icônes
+    margin-bottom: 15px // Espacement sous l'icône
+
+  // Titres des cards
+  h5
+    font-weight: bold // Texte en gras
+    margin-bottom: 10px // Espacement sous le titre
+
+  // Texte descriptif
+  p
+    color: #6c757d // Texte gris clair
+    font-size: 14px // Taille du texte
+    margin: 0 // Supprime les marges
+    line-height: 1.6 // Espacement entre les lignes
+
+// Grille des cards
+.row
+  gap: 10px // Espacement entre les cards dans la grille
