@@ -164,6 +164,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   padding: 20px;
+  display: flex;
 }
 .service-card:hover {
   transform: translateY(-5px);
@@ -174,11 +175,11 @@
   color: #007bff;
   margin-bottom: 15px;
 }
-.service-card h5, .service-card .h5 {
+.service-card .h5 {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.service-card p {
+.service-card .p {
   color: #6c757d;
   font-size: 14px;
   margin: 0;
@@ -220,7 +221,7 @@
   transform: translateY(-10px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
-.team-card img {
+.team-card .img {
   width: 100%;
   height: auto;
 }
@@ -236,6 +237,90 @@
   font-size: 14px;
   color: #6c757d;
   margin: 0;
+}
+
+.contact-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.section-title .highlight {
+  color: #007bff;
+}
+
+.section-description {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+.contact-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+.contact-card i {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.contact-card h5, .contact-card .h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.contact-form .btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #c2dceb;
+  text-align: center;
+  padding: 2rem 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .container p {
+  margin: 5px 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+.footer .container p .brand {
+  font-weight: bold;
+  color: #000000;
+}
+.footer .container p .designer {
+  color: #007bff;
+  text-decoration: none;
+}
+.footer .container p .designer:hover {
+  text-decoration: underline;
+}
+
+.ftrclr {
+  background-color: #f1f6f9;
+  height: 25%;
 }
 
 .navbar-nav {

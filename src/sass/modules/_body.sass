@@ -158,12 +158,12 @@
     margin-bottom: 15px // Espacement sous l'icône
 
   // Titres des cards
-  h5
+  .h5
     font-weight: bold // Texte en gras
     margin-bottom: 10px // Espacement sous le titre
 
   // Texte descriptif
-  p
+  .p
     color: #6c757d // Texte gris clair
     font-size: 14px // Taille du texte
     margin: 0 // Supprime les marges
@@ -206,7 +206,7 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2)
 
   // Image
-  img
+  .img
     width: 100%
     height: auto
 
@@ -223,3 +223,66 @@
       font-size: 14px
       color: #6c757d
       margin: 0
+
+// Section globale
+.contact-section
+  padding: 50px 0
+  background-color: #f9f9f9
+
+// Titre de la section
+.section-title
+  font-size: 32px
+  font-weight: bold
+  margin-bottom: 10px
+
+  .highlight
+    color: #007bff
+
+.section-description
+  color: #6c757d
+  font-size: 16px
+
+// Cartes d'informations de contact
+.contact-card
+  background-color: #fff
+  border-radius: 8px
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+  padding: 20px
+  margin: 10px 0
+  transition: transform 0.3s ease
+
+  &:hover
+    transform: translateY(-5px)
+
+  i 
+    font-size: 24px
+    color: #007bff
+    margin-bottom: 10px
+
+  h5
+    font-size: 18px
+    font-weight: bold
+    margin-bottom: 5px
+
+// Formulaire
+.contact-form
+  .form-control
+    border-radius: 5px
+    border: 1px solid #ddd
+    padding: 10px
+
+  .btn
+    padding: 10px 20px
+    border-radius: 5px
+
+.footer
+  background-color: #abbcca // Bleu-gris clair
+  color: #343a40 // Texte gris foncé pour une bonne lisibilité
+  padding: 2rem 0 // Espacement vertical
+
+  a
+    color: #007bff // Lien bleu
+    text-decoration: none
+
+    &:hover
+      text-decoration: underline // Soulignement au survol
