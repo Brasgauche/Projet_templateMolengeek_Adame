@@ -10,8 +10,8 @@
 <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Molengeek<span class="text-primary">.</span></a>
+        <div class="navbar" class="container-fluid">
+            <a class="navbar-brand" id="LOGO" href="#">Molengeek<span class="text-primary">.</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>              
@@ -43,8 +43,8 @@
       <div class="header">
         <img src="./public/img/hero-bg.jpg" alt="Background" class="background-img">
         <div class="header-content">
-          <h1 class="h1w" class="display-4">Welcome to MolenGeek</h1>
-          <p class="p1w" class="lead">Mon projet du vendredi</p>
+          <h1 class="h1w" class="display-4">Welcome to <span class="text-primary">MolenGeek</span></h1>
+          <p class="p1w text.secondaire " class="lead">Mon projet du vendredi</p>
           <a href="#services" class="btn btn-primary">Get Started</a>
         </div>
       </div>
@@ -56,98 +56,63 @@
           </div>
           <div class="container text-center my-5">
             <h2 class="rfs" class="text-dark">Read <span class="text-primary">Featured Services</span></h2>
-            <div class="row mt-4">
+            <div class="d-flex justify-content-center align-items-center flex-wrap flex-lg-wrap">
               <!-- Première colonne -->
-              <div class="col-md-3">
+              <div class="sc" class="col-md-3">
                 <div class="service-card">
-                  <i class="icon-placeholder"></i>
-                  <h5>Lorem Ipsum</h5>
-                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                  <img class="iss1" src="./public/img/serv1.png" alt="">
+                  <h5 class="isd1">Lorem Ipsum</h5>
+                  <p class="isd1">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                 </div>
               </div>
               <!-- Deuxième colonne -->
-              <div class="col-md-3">
-                <div class="service-card">
-                  <i class="icon-placeholder"></i>
-                  <h5>Sed ut perspiciatis</h5>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="sc" class="col-md-3">
+                <div class="service-card d-flex">
+                  <img class="iss1" src="./public/img/serv2.png" alt="">
+                  <h5 class="isd1">Sed ut perspiciatis</h5>
+                  <p class="isd1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                 </div>
               </div>
               <!-- Troisième colonne -->
-              <div class="col-md-3">
+              <div class="sc" class="col-md-3">
                 <div class="service-card">
-                  <i class="icon-placeholder"></i>
-                  <h5>Magni Dolores</h5>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                  <img class="iss1" src="./public/img/serv3.png" alt="">
+                  <h5 class="isd1">Magni Dolores</h5>
+                  <p class="isd1">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                 </div>
               </div>
               <!-- Quatrième colonne -->
-              <div class="col-md-3">
+              <div class="sc" class="col-md-3">
                 <div class="service-card">
-                  <i class="bi bi-globe"></i>
-                  <h5>Nemo Enim</h5>
-                  <p>At ve    ro eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                  <img class="iss1" src="./public/img/serv4.png" alt="">
+                  <h5 class="isd1">Nemo Enim</h5>
+                  <p class="isd1">At ve    ro eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                 </div>
               </div>
             </div>
           </div>    
         </div>
-        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <!-- Première diapositive -->
-              <div class="carousel-item active">
-                <div class="carousel-overlay d-flex">
-                  <!-- Image principale (76%) -->
-                  <div class="main-image">
-                    <img src="./public/img/testi.jpg" class="d-block w-100" alt="Image 1">
-                  </div>
-                  <!-- Image secondaire (24%) -->
-                  <div class="secondary-image">
-                    <img src="./public/img/testi.jpg" class="img-fluid" alt="Image secondaire">
-                  </div>
-                </div>
-                <div class="carousel-caption">
-                  <h5 class="text-primary">Testimonial 1</h5>
-                  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-                </div>
-              </div>
-          
-              <!-- Deuxième diapositive -->
-              <div class="carousel-item">
-                <div class="carousel-overlay d-flex">
-                  <!-- Image principale (76%) -->
-                  <div class="main-image">
-                    <img src="./public/img/testi.jpg" class="d-block w-100" alt="Image 2">
-                  </div>
-                  <!-- Image secondaire (24%) -->
-                  <div class="secondary-image">
-                    <img src="./public/img/testi.jpg" class="img-fluid" alt="Image secondaire">
-                  </div>
-                </div>
-                <div class="carousel-caption">
-                  <h5 class="text-primary">Testimonial 2</h5>
-                  <p class="text-white">Another testimonial goes here...</p>
-                </div>
-              </div>
-          
-              <!-- Troisième diapositive -->
-              <div class="carousel-item">
-                <div class="carousel-overlay d-flex">
-                  <!-- Image principale (76%) -->
-                  <div class="main-image">
-                    <img src="./public/img/testi.jpg" class="d-block w-100" alt="Image 3">
-                  </div>
-                  <!-- Image secondaire (24%) -->
-                  <div class="secondary-image">
-                    <img src="./public/img/testi.jpg" class="img-fluid" alt="Image secondaire">
-                  </div>
-                </div>
-                <div class="carousel-caption">
-                  <h5 class="text-primary">Testimonial 3</h5>
-                  <p class="text-white">More content for this testimonial...</p>
-                </div>
-              </div>
-            </div>
+        <div id="carouselExample" class="carousel slide d-flex bg-black bg-opacity-75 w-100 h-100 d-flex" >
+          <div class="carousel-inner">
+          <div class="carousel-item active d-flex">
+              <img id="imgcrs" src="./public/img/testi.jpg" class="bg-black bg-opacity-70" style="width: 70%;" alt="...">
+              <img id="imgcrs" src="./public/img/testi.jpg"  alt="...">
+          </div> 
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+          <div class="txti carousel-caption d-none d-md-block">
+            <h2 class="text-primary"><b class="tst">TESTIMONIAL 3</b></h2>
+            <p class="pst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit earum vitae a nesciunt cupiditate asperiores unde cumque. Dolorum ipsam, fugit eos iste veritatis architecto ipsa aperiam distinctio ea quibusdam cum atque repellendus nobis ratione molestiae, laudantium fugiat eveniet quas nulla libero aliquid. At quas possimus incidunt numquam rem, optio, maxime dignissimos quam dolorum ad modi.</p>
+        </div>
+        </div>
+    </div>
           
             <!-- Contrôles gauche et droite -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -159,7 +124,8 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <div class="container my-5">
+
+          <div class="container my-5 g-3  justify-content-center" style="max-width: 60rem;">
             <div class="text-center">
               <span class="badge bg-light text-primary px-3 py-2">SERVICES</span>
               <h2 class="mb-3">Check our <span class="text-primary">Services</span></h2>
@@ -168,72 +134,73 @@
                 expertise in multiple unique industries.
               </p>
             </div>
+            <div class=" d-flex flex-wrap">
+          <!-- Card 1 -->
+            
+              <div class="col">
+                  <div class="service-cardi text-center p-4 shadow-sm">
+                      <img class="iss" src="./public/img/SERV22.jpg" alt="">
+                      <h5 class="fw-bold">Lorem Ipsum</h5>
+                      <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
+                  </div>
+              </div>
           
-            <!-- Row avec espacement réduit -->
-            <div class="row row-cols-1 row-cols-md-3 g-2 mt-4"> <!-- g-2 réduit l'espacement -->
-              <!-- Card 1 -->
-              <div class="row row-cols-1 row-cols-md-3 g-2 mt-4">
-                <div class="col">
-                    <div class="service-card text-center p-4 shadow-sm">
-                        <i class="icon bi bi-house-door mb-3"></i>
-                        <h5 class="fw-bold">Lorem Ipsum</h5>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
-                    </div>
-                </div>
-                <!-- Répète cette structure pour les autres cards -->
-            </div>            
+                      
               <!-- Card 2 -->
               <div class="col">
-                <div class="service-card text-center p-4 shadow-sm">
-                  <i class="icon bi bi-puzzle mb-3"></i>
-                  <h5 class="fw-bold">Sed ut perspiciatis</h5>
-                  <p class="text-muted">
+                <div class="service-cardi text-center p-4 shadow-sm">
+                  <img class="iss" src="./public/img/SERV22.jpg" alt="">
+                  <h5 class="isdts" class="fw-bold">Sed ut perspiciatis</h5>
+                  <p class="isd" class="text-muted">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
                   </p>
                 </div>
               </div>
               <!-- Card 3 -->
               <div class="col">
-                <div class="service-card text-center p-4 shadow-sm">
-                  <i class="icon bi bi-speedometer2 mb-3"></i>
-                  <h5 class="fw-bold">Magni Dolores</h5>
-                  <p class="text-muted">
+                <div id="cdr" class="service-cardi text-center p-4 shadow-sm">
+                  <img class="iss" src="./public/img/SERV33.jpg" alt="">
+                  <h5 class="isdts" class="fw-bold">Magni Dolores</h5>
+                  <p class="isd" class="text-muted">
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="troisdem d-flex flex-wrap" style="margin-top: 5rem;">
               <!-- Card 4 -->
               <div class="col">
-                <div class="service-card text-center p-4 shadow-sm">
-                  <i class="icon bi bi-gear mb-3"></i>
-                  <h5 class="fw-bold">Nemo Enim</h5>
-                  <p class="text-muted">
+                <div id="cdr" class="service-cardi text-center p-4 shadow-sm">
+                  <img class="iss" src="./public/img/SERV44.jpg" alt="">
+                  <h5 class="isdt" class="fw-bold">Nemo Enim</h5>
+                  <p class="isd" class="text-muted">
                     At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.
                   </p>
                 </div>
               </div>
               <!-- Card 5 -->
               <div class="col">
-                <div class="service-card text-center p-4 shadow-sm">
-                  <i class="icon bi bi-people mb-3"></i>
-                  <h5 class="fw-bold">Dolor Saepe</h5>
-                  <p class="text-muted">
+                <div id="cdr" class="service-cardi text-center p-4 shadow-sm">
+                  <img class="iss" src="./public/img/SERV55.jpg" alt="">
+                  <h5 class="isdt" class="fw-bold">Dolor Saepe</h5>
+                  <p class="isd" class="text-muted">
                     Cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.
                   </p>
                 </div>
               </div>
               <!-- Card 6 -->
               <div class="col">
-                <div class="service-card text-center p-4 shadow-sm">
-                  <i class="icon bi bi-lightning mb-3"></i>
-                  <h5 c class="fw-bold">Sit Amet</h5>
-                  <p class="text-muted">
+                <div id="cdr" class="service-cardi text-center p-4 shadow-sm">
+                  <img class="iss" src="./public/img/SERV66.jpg" alt="">
+                  <h5 class="isdt" class="fw-bold">Sit Amet</h5>
+                  <p class="isd" class="text-muted">
                     Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
           <section class="team-section py-5">
             <div class="container">
                 <div class="text-center mb-5">
@@ -291,7 +258,8 @@
             <div class="container">
                 <!-- Titre de la section -->
                 <div class="text-center mb-5">
-                    <h3 class="section-title">Contact <span class="highlight">Us</span></h3>
+                  <span class="badge bg-light text-primary px-3 py-2">Contact</span>
+                    <h3 class="section-title"><span class="highlight">Contact Us</span></h3>
                     <p class="section-description">
                         Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptates atque vitae autem.
                     </p>
@@ -299,23 +267,24 @@
         
                 <!-- Bloc d'informations de contact -->
                 <div class="row text-center mb-4">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="contact-card">
-                            <i class="bi bi-geo-alt"></i>
+                          <img src="./public/img/pososlm.jpg" alt="">
                             <h5>Our Address</h5>
                             <p>Place de la Minoterie 10, 1080 Molenbeek-Saint-Jean</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="contact-card">
-                            <i class="bi bi-envelope"></i>
+                          <img src="./public/img/mailoslm.jpg" alt="">
+
                             <h5>Email Us</h5>
                             <p>info@molengeek.com</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="contact-card">
-                            <i class="bi bi-telephone"></i>
+                          <img src="./public/img/calloslm.jpg" alt="">
                             <h5>Call Us</h5>
                             <p>+1 5589 55488 55</p>
                         </div>
@@ -361,12 +330,12 @@
                 </div>
             </div>
         </section>
-        <footer class="footer bg-light py-4" style="background-color: #d6e4f0;">
+        <footer class="footer bg-lightblue py-4" style="background-color: #d6e4f0;">
             <div class="container d-flex justify-content-between align-items-center flex-wrap">
-              <p class="mb-0 text-muted fs-5">
-                © Copyright <span class="fw-bold text-primary">MolenGeek</span>. All Rights Reserved
+              <p class="pnbn" class="mb-0 text-muted fs-5">
+                © Copyright <span class="fw-bold text-black">MolenGeek</span>. All Rights Reserved
               </p>
-              <p class="mb-0 text-muted fs-5">
+              <p class="dbm" class="mb-0 text-muted fs-5">
                 Designed by <a href="#" class="text-primary text-decoration-none">MolenGeek</a>
               </p>
             </div>
